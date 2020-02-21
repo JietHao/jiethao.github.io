@@ -1,0 +1,5 @@
+# IDE
+
+# Atom
+
+# PyCharm
