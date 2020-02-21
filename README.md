@@ -8,7 +8,6 @@
 
 * [前言](README.md)
 * [读书](Book/README.md)
-    * [python](books/python/README.md)
 * [数据库](Database/README.md)
 * [数据结构](DataStructure/README.md)
 * [设计模式](DesignPatterns/README.md)
