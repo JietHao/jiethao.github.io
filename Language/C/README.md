@@ -40,3 +40,19 @@
 * 1.17 [不要这样学习C语言，这是一个坑！](https://www.cnblogs.com/zhangjinfu/articles/11270080.html)
 
 ## C语言初探
+
+
+
+## 记录
+1. 不支持嵌套定义
+2. 形参 VS 实参 (http://c.biancheng.net/view/1853.html)
+
+
+
+
+C Library (http://www.cplusplus.com/reference/clibrary/)
+```
+合格程序员：<stdio.h>、<ctype.h>、<stdlib.h>、<string.h>
+熟练程序员：<assert.h>、<limits.h>、<stddef.h>、<time.h>
+优秀程序员：<float.h>、<math.h>、<error.h>、<locale.h>、<setjmp.h>、<signal.h>、<stdarg.h>
+```
