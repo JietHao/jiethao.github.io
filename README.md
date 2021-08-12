@@ -20,3 +20,5 @@
 * [收藏夹](Favorites/README.md)
 * [个人计划](Plan/README.md)
 
+## 法则
+1. 6寸4寸规则：It is faster to make a four-inch mirror and then a six-inch mirror than to make a six-inch mirror.

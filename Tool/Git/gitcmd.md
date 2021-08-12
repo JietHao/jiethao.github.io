@@ -1,6 +1,15 @@
-git命令
+# git命令
+
+## 初始化
+1. 设置
+   git config --global user.name 'xxx'
+   git config --glolbal user.mail 'xxx@xxx.com'
+
+2. 初始化仓库
+   git init
 
 
+## 操作
 1. clone远程仓库工程代码到本地
    git clone  xxxx
 
@@ -30,3 +39,9 @@ git命令
 
 8. 查看日志
    git log
+
+
+
+9. 子模块
+   git submodule init
+   git sumodule update
