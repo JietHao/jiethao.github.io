@@ -99,3 +99,11 @@ https://down.ali213.net/pcgame/SIM/
 PVP，指玩家对战玩家（Player versus player），即玩家互相利用游戏资源攻击而形成的互动竞技。
 与PVP相对的是PVE（玩家对战环境，Player VS Environment），指的是在游戏中玩家挑战游戏程序所控制的NPC怪物和BOSS。PVE有时候又被称作PVC（Player Vs Computer）。
 
+
+PVE: Player VS Environment，玩家对抗环境，有时又称PVC（Player VS Computer）
+PVP: Player VS Player，玩家对抗玩家
+GVE: Group VS Environment，公会对抗环境
+GVP: Group VS Player，公会对抗玩家
+GVG: Group VS Group，公会对抗公会
+
+MVP：最小可行性
