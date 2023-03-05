@@ -5,9 +5,10 @@
 >博客地址：[https://jiethao.github.io/](https://jiethao.github.io/)
 
 # 目录
-
 * [前言](README.md)
+* [链接](Links.md)
 * [读书](Book/README.md)
+* [计算机](Computer/README.md)
 * [数据库](Database/README.md)
 * [数据结构](DataStructure/README.md)
 * [设计模式](DesignPatterns/README.md)
@@ -16,9 +17,6 @@
 * [编程语言](Language/README.md)
 * [Linux系统](Linux/README.md)
 * [网络](Network/README.md)
+* [编程](Programing/README.md)
 * [工具](Tool/README.md)
-* [收藏夹](Favorites/README.md)
-* [个人计划](Plan/README.md)
-
-## 法则
-1. 6寸4寸规则：It is faster to make a four-inch mirror and then a six-inch mirror than to make a six-inch mirror.
+* [杂项](Misc/README.md)

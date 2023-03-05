@@ -1,4 +1,7 @@
-# UML(Unified Markup Language)
+# UML
+> (Unified Markup Language统一建模语言)
+
+> 两大类：结构图（structure diagrams） 和 行为图（behavior diagrams）
 
 
 ## 分类
@@ -17,7 +20,4 @@
 1. 甘特图（Gantt charts）
 2. 架构图（Archimate diagram）
 3. 活动图（Activity diagram）（旧语法）
-
-
-
 
