@@ -1,9 +1,13 @@
 ## Git命令
 
+https://learngitbranching.js.org/?locale=zh_CN
+
 ### 1、设置
 ```
 git config --global user.name 'xxx'
 git config --glolbal user.mail 'xxx@xxx.com'
+
+git config --global credential.helper store // 保存密码
 
 git config --global core.quotepath false // 识别中文
 ````
@@ -17,6 +21,7 @@ git config --global core.quotepath false // 识别中文
 git clone url // 下载远端仓库到本地
 git push // 推送到远端仓库
 git pull // 同步远端仓库到本地
+git fetch // 拉取远端仓库提交但不应用
 
 git init // 初始化本地仓库
 git add xxx // 加入文件xxx本地仓库
@@ -26,6 +31,7 @@ git commit -m 'yyy' // 提交当前已经add但未commit的所有文件到仓库
 git commit -a -m 'yyy' // 提交当前目录下所有修改文件到仓库
 git checkout xxx // 还原xxx文件的本地修改
 git checkout . // 还原当前目录下的修改
+git checkout commit <file>  // 检出特定版本的某个文件
 ```
 
 ### 1、创建分支 
@@ -68,7 +74,17 @@ git remote set-head origin develop //修改远程分支HEAD指向develop
 ### 7、分支合并 
 ``` 
 git checkout master // 切回到需要合并的源分支 
-git merge new_branch // 将目的分支合并到源分支 
+git merge new_branch // 将目的分支合并到源分支
+
+git checkout feature  // 切到feature分支
+git rebase master  // rebase feature分支
+
+merge: 保留完整历史记录且按时间排序，具有更高的可追溯性。
+rebase: 保持PR整洁，易于审核。
+
+rebase 黄金法则：不在主分支rebase，可能出现系统性丢失。建议不在共用分支rebase。个人开发分支可用。
+
+https://www.cnblogs.com/FraserYu/p/11192840.html
 ```
 
 ### 8、子模块
