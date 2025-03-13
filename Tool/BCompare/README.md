@@ -22,3 +22,35 @@
    chmod a+x /Applications/Beyond\ Compare.app/Contents/MacOS/BCompare
    ```
 6. 以上步骤完成后，再次打开Beyond Compare就可以正常使用了，enjoy it。
+
+
+## Windows破解方式
+1. 查看当前用户
+
+C:\Users\TU>whoami/user
+
+用户信息
+----------------
+
+用户名             SID
+================== =============================================
+windows-7aincbm\tu S-1-5-21-319973256-2931121972-3601398790-1000
+
+
+C:\Users\TU>
+
+2. 从注册表删除该用户下的CacheId
+
+reg delete “HKEY_USERS<SID>\Software\Scooter Software\Beyond Compare 4” /v CacheId /f
+
+reg delete “HKEY_USERS\S-1-5-21-1742707355-3167172020-1997565728-1001\Software\Scooter Software\Beyond Compare 4” /v CacheId /f
+
+reg delete “HKEY_USERS\S-1-5-21-319973256-2931121972-3601398790-1000\SOFTWARE\Scooter Software\Beyond Compare 5” /v CacheId /f
+
+
+打开注册表
+Win+R后输入regedit
+
+注意事项：
+1. 如果不好使，卸载重新安装
+2. 重新安装后，先删除注册表信息再启动
